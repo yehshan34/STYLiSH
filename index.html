@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>STYLiSH</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Discover 2021's latest clothing trends from fashion's top designers and see how your favorite models are wearing and pairing their perfectly chosen mix of trendy and classic clothes. Get on fashion's cutting-edge right now with our picks for trendy outfit ideas and shop our curation of celebrity-approved dresses, jeans, shirts, skirts, accessories that will become your own wardrobe staples." />
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+   <link rel="stylesheet" type="text/css" href="./css/style.css">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8KBVS0SY4"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-J8KBVS0SY4');
+   </script>
+</head>
+
+<body>
+   <nav class="desktop_header">
+      <div class="nav_list">
+         <div class="nav_sitename">
+            <a href="index.html"><img src="./images/logo.png" alt="logo"/></a>
+         </div>
+         <ul>
+            <li class="tag tag_women">
+               <a href="index.html?tag=women">女裝</a>
+            </li>
+            <li>|</li>
+            <li class="tag tag_men">
+               <a href="index.html?tag=men">男裝</a>
+            </li>
+            <li>|</li>
+            <li class="tag tag_accessories">
+               <a href="index.html?tag=accessories">配件</a>
+            </li>
+         </ul>
+      </div>
+      <div class="menu_icons" id="laptop_menu">
+         <ul>
+            <li><form><input type="search" name="keyword" placeholder="..." class="search"></form></li>
+            <a href="./cart.html">
+               <img src="./images/cart.png" alt="cart" />
+               <li class="count">
+               </a></li>
+               <li><img src="./images/member.png" class="member" alt="member"/></li>
+               </ul>
+            </div>
+         </nav> 
+         <div class="mobile_header">
+            <a class="logo" href="index.html">
+               <img src="./images/logo.png" height="20"  alt="logo"/>
+            </a>
+            <form>
+               <input type="search" name="keyword" class="search" />
+            </form>
+         </div>
+         <div class="mobile_nav">
+            <a href="index.html?tag=women" class="tag tag_women">女裝</a>
+            <a href="index.html?tag=men" class="tag tag_men">男裝</a>
+            <a href="index.html?tag=accessories" class="tag tag_accessories">配件</a>
+         </div>
+         <div class="mobile_footer">
+            <a class="cart" href="./cart.html">
+               <img src="./images/cart-mobile.png" height="44" alt="cart-mobile"/>
+               <div class="count"></div>
+               購物車
+            </a>
+            <div class="member">
+               <img src="./images/member-mobile.png" height="44" alt="member" />
+               會員
+            </div>
+         </div>
+         
+         <!-- all banners by ajax, see productAPI.js file -->
+         <div id="main_banner">
+            <!-- <div class="banner">
+               
+            </div> -->
+            <div class="dots">
+               <div class="dot"></div>
+               <div class="dot"></div>
+               <div class="dot"></div>
+            </div> 
+         </div>
+         
+         <div class="wrapper">
+            <section class="section">
+               
+               <div class="section_contents">
+                  <!-- all products by ajax, see productAPI.js file -->
+               </div>
+               
+            </section>
+         </div>
+         <footer>
+            <nav>
+               <ul>
+                  <li>關於 Stylish</li>
+                  <li>服務條款</li>
+                  <li>隱私政策</li>
+                  <li>聯絡我們</li>
+                  <li>FAQ</li>
+               </ul>
+            </nav>
+            <div class="site">
+               <img src="./images/line.png" alt="line"/>
+               <img src="./images/twitter.png" alt="twitter"/>
+               <img src="./images/facebook.png" alt="facebook"/>
+            </div>
+            <div class="rights">© 2021. All rights reserved.</div>
+         </footer>
+         
+         <script type="text/javascript" src="./js/main.js"></script>
+         <script type="text/javascript" src="./js/login.js"></script>
+         <script type="text/javascript" src="./js/base.js"></script>
+      </body>
+      
+      </html>
